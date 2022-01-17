@@ -1,6 +1,5 @@
-html {
-  box-sizing: border-box;
-}
+@import "./reset.css";
+@import "./fonts.css";
 
 *,
 *::after,
