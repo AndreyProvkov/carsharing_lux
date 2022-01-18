@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -8,7 +9,10 @@ module.exports = {
     devtool: 'source-map',
     devServer: {
         hot:false,
-        liveReload: true
+        liveReload: true,
+        static: {
+            directory: path.resolve(__dirname, 'dist'),
+    },
     },
     entry: './js/index.js',
     output: {
@@ -25,8 +29,8 @@ module.exports = {
             {
                 test: /\.css$/i,
                 use: [
-                    MiniCssExtractPlugin.loader,
-                    // 'style-loader',
+                    // MiniCssExtractPlugin.loader,
+                    'style-loader',
                     'css-loader'
                 ],
             },
@@ -45,5 +49,9 @@ module.exports = {
             template: './index.html'
         }),
         new MiniCssExtractPlugin(),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery'
+        }),
     ],
 };
