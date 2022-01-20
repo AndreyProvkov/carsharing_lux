@@ -323,4 +323,34 @@ body {
 
 .benefits__content {
   width: 300px;
+  text-align: right;
+}
+
+.benefits__text {
+  margin-bottom: 30px;
+}
+
+.benefits__text + .benefits__text {
+  width: 267px;
+  margin-left: auto;
+}
+
+.video-popup {
+  background-color: #c5ac2d;
+  text-transform: uppercase;
+  color: #fefefe;
+  padding: 6px 34px 6px 64px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.video-popup::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url("../images/video-btn.svg");
+  top: 12px;
+  left: 34px;
 }
