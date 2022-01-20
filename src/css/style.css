@@ -69,6 +69,10 @@ body {
   color: #fefefe;
 }
 
+.top {
+  padding-bottom: 100px;
+}
+
 .top__heading {
   display: flex;
   padding: 50px 0 30px;
@@ -195,4 +199,37 @@ body {
 
 .top__link + .top__link {
   margin-left: 20px;
+}
+
+.rent {
+  padding: 100px 0;
+}
+
+.rent__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rent__content {
+  width: 300px;
+}
+
+.rent__title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+
+.rent__text {
+  margin-bottom: 20px;
+}
+
+.rent__text + .rent__text {
+  margin-bottom: 40px;
+}
+
+.application-btn_display_inline-block {
+  display: inline-block;
 }
