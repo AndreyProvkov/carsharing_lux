@@ -476,3 +476,26 @@ body {
   color: #c5ac2d;
   border: 1px solid #c5ac2d;
 }
+
+.footer {
+  padding: 100px 0 24px;
+  background: #332208;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.footer__social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__social-link {
+  margin: 0 15px;
+}
