@@ -584,3 +584,26 @@ body {
     padding-right: 0;
   }
 }
+
+@media (max-width: 410px) {
+  .top__item {
+    width: 100%;
+  }
+  .top__links {
+    text-align: center;
+  }
+  .top__link {
+    margin: 10px 15px;
+    display: inline-block;
+  }
+  .top__link + .top__link {
+    margin-left: 0;
+  }
+  .top__slider-text {
+    text-align: right;
+  }
+  .top__slider-text span {
+    display: block;
+    margin: 10px 0;
+  }
+}
