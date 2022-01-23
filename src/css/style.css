@@ -504,6 +504,12 @@ body {
   display: none;
 }
 
+@media (max-width: 1250px) {
+  .benefits__images {
+    width: 40%;
+  }
+}
+
 @media (max-width: 1140px) {
   .rent__inner {
     flex-wrap: wrap;
