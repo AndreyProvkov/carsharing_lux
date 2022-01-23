@@ -587,6 +587,19 @@ body {
   }
 }
 
+@media (max-width: 650px) {
+  .rent__item {
+    width: 100%;
+    min-height: 245px;
+  }
+  .rent__item-title {
+    margin-bottom: 20px;
+  }
+  .rent__content {
+    text-align: center;
+  }
+}
+
 @media (max-width: 525px) {
   .top__items {
     flex-wrap: wrap;
