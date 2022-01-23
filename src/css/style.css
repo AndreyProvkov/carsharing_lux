@@ -543,6 +543,17 @@ body {
   .top__items {
     width: 100%;
   }
+  .benefits__content {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .benefits__items {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .benefits__text + .benefits__text {
+    width: 100%;
+  }
 }
 
 @media (max-width: 860px) {
