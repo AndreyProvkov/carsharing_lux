@@ -582,6 +582,9 @@ body {
     padding: 20px 0;
     display: block;
   }
+  .rent__item {
+    margin: 30px;
+  }
 }
 
 @media (max-width: 525px) {
