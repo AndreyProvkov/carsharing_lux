@@ -504,6 +504,17 @@ body {
   display: none;
 }
 
+@media (max-width: 1140px) {
+  .rent__inner {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .rent__content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 1000px) {
   .top__heading {
     display: block;
