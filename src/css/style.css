@@ -633,4 +633,7 @@ body {
     display: block;
     margin: 10px 0;
   }
+  .rent__item {
+    margin: 30px 0;
+  }
 }
