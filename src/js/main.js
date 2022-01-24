@@ -23,17 +23,17 @@ $(function(){
             {
                 breakpoint: 1141,
                 settings: {
-                    slidesToShow: 3,                }
+                    slidesToShow: 3,}
             },
             {
                 breakpoint: 846,
                 settings: {
-                    slidesToShow: 2,                }
+                    slidesToShow: 2,}
             },
             {
                 breakpoint: 585,
                 settings: {
-                    slidesToShow: 1,                }
+                    slidesToShow: 1,}
             }
         ]
     })
