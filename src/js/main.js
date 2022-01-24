@@ -18,7 +18,14 @@ $(function(){
         arrows: false,
         dots: true,
         slidesToShow: 4,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1141,
+                settings: {
+                    slidesToShow: 3,                }
+            },
+        ]
     })
 
     $('.menu__btn').on('click', function() {
