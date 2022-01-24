@@ -554,6 +554,9 @@ body {
   .benefits__text + .benefits__text {
     width: 100%;
   }
+  .footer .menu {
+    display: none;
+  }
 }
 
 @media (max-width: 860px) {
