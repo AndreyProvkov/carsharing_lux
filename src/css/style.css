@@ -608,6 +608,12 @@ body {
   .feedback__images {
     display: none;
   }
+  .footer,
+  .feedback,
+  .reviews,
+  .rent {
+    padding: 50px 0;
+  }
 }
 
 @media (max-width: 650px) {
