@@ -30,6 +30,11 @@ $(function(){
                 settings: {
                     slidesToShow: 2,                }
             },
+            {
+                breakpoint: 585,
+                settings: {
+                    slidesToShow: 1,                }
+            }
         ]
     })
 
