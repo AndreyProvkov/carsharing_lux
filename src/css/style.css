@@ -654,6 +654,17 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+  .footer__top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .phone {
+    margin-top: 30px;
+    display: inline-block;
+  }
+}
+
 @media (max-width: 410px) {
   .top__item {
     width: 100%;
